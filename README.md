@@ -41,9 +41,15 @@ console.log(directory);
 var result = requiredir(directoryName, namePredicate, recursive);
 ```
 
-- **directoryName**: A string containing the name of the directory you want to include.
-- **namePredicate**: A function that ommits a module if it returs false. It also lets you modify the module name as presented in the example.
-- **recursive**: Whether to recursively recurse the contents of the directory;
+- **directoryName**: A string containing the name of the directory you want to
+    include.
+- **namePredicate**: (optional: identity) A function that ommits a module if it
+    returns false. It also lets you modify the module name as presented in the example.
+- **recursive**: (optional: false) Whether to recursively recurse the contents
+    of the directory;
+
+note that this function is not polymorphic, if you don't want to use a `predicate` but want to use
+`recursive` you must pass an argument, like `null` or `_.identity`.
 
 ## Testing
 
@@ -53,3 +59,7 @@ From the repo root:
 npm install
 npm test
 ```
+
+## Credits
+
+This module was originally created and maintained by [Juan Cruz Viotti](https://www.npmjs.com/~jviotti).
