@@ -1,7 +1,7 @@
 {
   "name": "node-require-dir",
   "description": "Powered require directory module, allowing recurse and filtering",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "node-require-dir.js",
   "devDependencies": {
     "chai": "*",
