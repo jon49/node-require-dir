@@ -23,15 +23,10 @@
   },
   "_from": "node-require-dir@*",
   "_npmVersion": "1.3.14",
-  "_npmUser": {
-    "name": "jviotti",
-    "email": "juanchiviotti@gmail.com"
-  },
+  "_npmUser": {"name": "jon49","email": "nymanjon@gmail.com"},
   "maintainers": [
-    {
-      "name": "jviotti",
-      "email": "juanchiviotti@gmail.com"
-    }
+    {"name": "jviotti", "email": "juanchiviotti@gmail.com"},
+    {"name": "jon49", "email": "nymanjon@gmail.com"}
   ],
   "directories": {},
   "_shasum": "7d2eb9c4aa3bbb0bdcbed5c2b37902b7b5cb1bba",
