@@ -2,6 +2,13 @@
 
 [![Build Status](https://secure.travis-ci.org/jviotti/node-require-dir.png?branch=master)](http://travis-ci.org/jviotti/node-require-dir)
 
+## Alternatives
+
+After taking over this project I discovered
+[`require-glob`](https://www.npmjs.com/package/require-glob).
+
+It is recommended to use the above project. If you find any similar projects
+let me know and I'll add them.
 
 ## Installation
 
@@ -11,7 +18,7 @@ Install with npm:
 npm install --save node-require-dir
 ```
 
-## Example
+## Example
 
 ```
 var requiredir = require('node-require-dir');
